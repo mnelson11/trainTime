@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Time!</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/logic.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
+</head>
+<body>
+	<div class=container>
+		<div class='row corners' id= 'train-display'>
+			<div class='scheduleTitle' >Current Train Schedule</div>
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th class= header>Train Name</th>
+				      <th class= header>Destination</th>
+				      <th class= header>Frequency (min)</th>
+				      <th class= header>Next Arrival</th>
+				      <th class= header>Minutes Away</th>
+				    </tr>
+				  </thead>
+				  <tbody class=tbody>
+				  </tbody>
+				</table>
+		</div>
+		<br>
+		<div class=row id="add-Train">
+			<div class="form-group row">
+			<div id=addTrainTitle>Add Train</div>
+			<form id=form>
+			  <label for="example-text-input" class="col-2 col-form-label trainTitle">Train Name</label>
+			  <div class="col-10">
+			    <input class="form-control" type="text"  id="trainName">
+			  </div>
+			</div>
+			
+			<div class="form-group row">
+			  <label for="example-search-input" class="col-2 col-form-label trainTitle">Destination</label>
+			  <div class="col-10">
+			    <input class="form-control" type="text"  id="Destination">
+			  </div>
+			</div>
+			
+			<div class="form-group row">
+			  <label for="example-email-input" class="col-2 col-form-label trainTitle">First Train Time (hh:mm)</label>
+			  <div class="col-10">
+			    <input class="form-control" type="text"  id="FirstTrain">
+			  </div>
+			</div>
+			
+			<div class="form-group row">
+			  <label for="example-url-input" class="col-2 col-form-label trainTitle">Frequency (min)</label>
+			  <div class="col-10">
+			    <input class="form-control" type="text"  id="Frequency">
+			  </div>
+			 
+			  <br>
+			  
+			  <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+			</div>
+
+			</form>
+		</div>
+		
+	</div>
+
+</body>
+</html>

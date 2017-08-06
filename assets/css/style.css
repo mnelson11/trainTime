@@ -1,0 +1,76 @@
+body{
+background:url("../images/6d7255a78278e0190f70de4fa7b06007.png");
+font-size: 30px
+background:fixed;
+}
+
+#train-display{
+	background-color: white;
+	margin-top: 10px;
+	
+	margin-top:10px;
+	margin-left: 10px;
+}
+
+.scheduleTitle{
+	text-align: center;
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 50px;
+	color:red;
+}
+
+.corners{
+	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+}
+
+
+.trainTitle{
+	font-size: 20px;
+	font-family: 'Saira Condensed', sans-serif;
+
+
+}
+
+#addTrainTitle{
+	font-size: 30px;
+	text-align: center;
+	color:red;
+
+
+}
+
+#add-Train{
+	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    width: 70%;
+    font-weight: bold;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+
+}
+
+.header{
+	font-size: 25px;
+	font-family: 'Saira Condensed', sans-serif;
+}
+
+#submit{
+	background-color: black;
+	color:white;
+}
+
+#submit:hover{
+	font-size: 110%;
+	background:red;
+}
+
+.form-control{
+	background-color: lightgrey;
+}
+
