@@ -22,8 +22,6 @@ window.onload = function(){
 	$(".btn").on("click", function(event){
 		event.preventDefault();
 
-
-
 		//get values from input fields
 		var trainName = $("#trainName").val();
 		var destination = $("#Destination").val();
@@ -37,10 +35,7 @@ window.onload = function(){
 			freq:frequency
 		});
 
-		$("#trainName").empty();
-		$("#Destination").empty();
-		$("#FirstTrain").empty();
-		$("#Frequency").empty();
+		location.reload();
 
 		console.log(trainName+", "+destination+", "+firstTrain+", "+frequency);
 	});
